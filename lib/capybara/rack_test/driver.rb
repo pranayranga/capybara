@@ -8,7 +8,7 @@ class Capybara::RackTest::Driver < Capybara::Driver::Base
   DEFAULT_OPTIONS = {
     :respect_data_method => false,
     :follow_redirects => true,
-    :redirect_limit => 5
+    :redirect_limit => 20
   }
   attr_reader :app, :options
 
